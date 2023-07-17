@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="msg.css">
+    <!-- <script src="msg.js"></script> -->
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=13U2UtdBUbftDZHcm8OAzm-bffjJtngzMI__Vsesn2MnOczdHbJ99VQc6FucgsvY-Fmbrtv9MMmhfWS_zuSjiO49-bsswu2Jv1yayN0JOO8" charset="UTF-8"></script></head>
+<body><center>
+   
+    <div class="con">
+        <div class="title"> 
+            <img src="images_j-removebg-preview.png " alt="" srcset="">
+        <h3>Comment Here</h3></div>
+    <div class="top">
+        
+       
+   <p><input type="text" style="font-size:12px;" id="inputmsg" placeholder="COMMENTS"></p>
+</div>
+<div class="button"></div>
+<p>
+<button id="click" onclick="message()"><b>submit</b></button><br>
+<button id="click" onclick="message()"><b>reset</b></button>
+</p>
+<!-- <div class="outputmsg"> -->
+<p id="outputmsg" style=" font-size:30px; text-align: center;text-shadow: 3px 7px 7px  rgb(128, 128, 128,9px);"></p>
+</div>
+</div>
+</div>
+</center>
+
+</center>
+<script>
+    const msginput=document.getElementById("inputmsg");
+function message(){
+    document.getElementById("outputmsg").innerHTML=msginput.value;
+    msginput.value="";
+}
+</script>
+    
+</body>
+</html>
